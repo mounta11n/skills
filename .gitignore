@@ -1,2 +1,5 @@
 .DS_Store
 *.log
+
+# Arbeitsdateien (gescrapte Dokumentation, temporäre Notizen)
+.workfiles-to-be-git-ignored/
