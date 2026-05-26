@@ -31,6 +31,21 @@ Hilfsskripte, Konfigurationen oder Beispiele kommen in `scripts/`, `examples/` o
 | **Skripte** | AppleScript, Shell, Python — was zum Skill passt |
 | **Testbarkeit** | Jeder Skill enthält einen Abschnitt „Testen“ oder Beispiele |
 
+## 🔒 Public Repo – Datenschutz & Sicherheit
+
+Dieses Repository ist **öffentlich** — alles hier landet auf GitHub für alle sichtbar.
+
+**Daher gilt für jeden Skill und jede Datei:**
+
+- ❌ **Keine** API-Keys, Tokens, Passwörter oder Secrets — auch nicht in kommentierten Code-Blöcken
+- ❌ **Keine** Pfade mit Benutzernamen (`/Users/deinname/...`) — nutze Platzhalter wie `~/`, `$HOME` oder `$USER`
+- ❌ **Keine** persönlichen Daten, Hostnames, IPs, MAC-Adressen
+- ❌ **Keine** `.env`-Dateien oder Config-Dumps mit lokalen Werten
+- ✅ Nur **generische, abstrahierte Skripte und Anleitungen**
+- ✅ Beispiel-Konfigurationen immer mit Platzhaltern (`your-api-key`, `example.com`, `mein-projekt`)
+
+> **Pull Requests willkommen** — aber auch hier gilt: Keine Secrets, keine persönlichen Daten.
+
 ## Verwendung
 
 Die Skills können von jedem Agenten direkt referenziert werden:
